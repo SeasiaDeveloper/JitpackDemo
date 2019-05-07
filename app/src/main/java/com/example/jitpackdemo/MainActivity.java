@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         com.example.mylibrary.MainActivity mainActivity  = new com.example.mylibrary.MainActivity();
-        mainActivity.showToast();
+        mainActivity.showToast(this);
     }
 }
